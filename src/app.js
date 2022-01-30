@@ -1,6 +1,8 @@
 const request = require('request')
 const path = require('path')
 
+const port = process.env.PORT || 3000
+
 const geocode = require('./geocode.js')
 const weather = require('./weather.js')
 
@@ -75,7 +77,7 @@ app.get('*',(req,res)=>{
 
 
 
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log("app is liestining on port 3000")
 })
 
