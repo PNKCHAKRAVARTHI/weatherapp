@@ -1,0 +1,18 @@
+h1{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.lin{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    margin: 5%;
+}
+div{
+    text-align: center;
+}
+a{
+    color: rgb(255, 0, 242);
+    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+}
